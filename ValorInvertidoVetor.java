@@ -8,13 +8,14 @@ public class ValorInvertidoVetor {
         int invertido = 0, inversao = 0;
         for (int i = 0; i < conjA.length; i++) {
             conjA[i] = ler.nextInt();
+            System.out.printf("Valor original %d -> ",conjA[i]);
             while (conjA[i] > 0) {
                 inversao = conjA[i] % 10; // pega o último dígito
                 invertido = (invertido * 10) + inversao; // coloca o último dígito em 1° e aumenta uma casa
                 conjA[i] /= 10; // divide por 10 para que o penúltimo número vire o último, ex: 12 -> 1
             }
             conjA[i] = invertido;
-            System.out.printf("%d ", conjA[i]);
+            System.out.printf("Valor invertido %d\n\n", conjA[i]);
             invertido = 0;
         }
     }
