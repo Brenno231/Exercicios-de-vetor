@@ -23,8 +23,8 @@ public class AmplitudeVetor {
         System.out.printf("A amplitude do conjunto é %d - %d = %d\n", maior, menor, maior - menor);
         System.out.printf("A média aritmetica do conjunto é %.2f\n", media);
         System.out.println("Este é o conjunto em ordem inversa");
-        for(int i = 4; i >= 0; i--){
-            System.out.printf("%d ",conjInt[i]);
+        for (int i = 4; i >= 0; i--) {
+            System.out.printf("%d ", conjInt[i]);
         }
     }
 }
