@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class InterseccaoVetores {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
+        System.out.println("Me diga o tamanho dos vetores!!!");
         int N = ler.nextInt();
         int A[] = new int[N];
         int B[] = new int[N];
