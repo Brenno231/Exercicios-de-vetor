@@ -18,7 +18,7 @@ public class Diferencavetores {
         }
         int iC, iB, iA;
         iC = iA = iB = 0;
-        while (iA < A.length && iB < B.length) {
+        while (iA < A.length) {
             boolean semValorRepetido = true;
             while (iB < B.length) {
                 if (A[iA] == B[iB]) {
